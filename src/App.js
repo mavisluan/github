@@ -4,7 +4,7 @@ import Item from './Item'
 import { items } from './static-data'
 
 const ItemsList = () => (
-  <div >
+  <div className='items-list'>
     <ul >
       {items.map(item => (
         <li key={item.id}>

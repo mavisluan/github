@@ -7,7 +7,7 @@ const ItemName = ({ type, name }) => {
         : <i class="far fa-file-alt"></i>
 
     return (
-        <div>
+        <div >
             <span>{icon}</span>
             <a>{name}</a>
         </div>        
