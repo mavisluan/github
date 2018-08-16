@@ -1,14 +1,12 @@
-body {
-  margin: 30px;
-}
 
-.items-list {
-  display: flex;
-  border: 1px solid lightgray;
-  max-width: 1000px;
-
-}
 
 li {
   list-style: none;
+  padding: 10px;
+  border: 1px solid lightgray;
+  max-width: 900px;;
+}
+
+.item {
+  display: flex;  
 }
