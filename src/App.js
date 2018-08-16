@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import { items } from './static-data'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
+const ItemsList = () => (
+  <div className='items-list'>
+    <ul>
+      {items.map(item => (
+        <li key={item.id}>
+        </li>
+      ))}
+    </ul>
+  </div>
   
-      </div>
-    );
-  }
-}
+)
 
-export default App;
+export default ItemsList;
