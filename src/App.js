@@ -5,14 +5,12 @@ import { items } from './static-data'
 
 const ItemsList = () => (
   <div className='items-list'>
-    <ul >
-      {items.map(item => (
-        <li key={item.id}>
+       {items.map(item => (
+        <div key={item.id}>
           <Item item={item} />
-        </li>
+        </div>
       ))}
-    </ul>
-  </div>
+   </div>
   
 )
 

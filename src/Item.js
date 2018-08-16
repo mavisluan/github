@@ -1,5 +1,6 @@
 import React from 'react'
 import ItemName from './ItemName'
+import Time from './Time'
 
 const Item = ({ item: {type, name, text, timestamp }}) => {
     return (
@@ -11,7 +12,7 @@ const Item = ({ item: {type, name, text, timestamp }}) => {
                 <span>{text}</span>
             </div>
             <div className='time'>
-                <span>{timestamp}</span>
+                <Time time={timestamp} />
             </div>      
         </div>
         

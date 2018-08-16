@@ -1,12 +1,22 @@
-li {
-  list-style: none;
-  padding: 10px;
+.items-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
   border: 1px solid lightgray;
-  max-width: 900px;;
+  border-top: 0;
+  margin: 10px;
+}
+
+
+.items-list > div {
+  list-style: none;
+  border-top: 1px solid lightgray;
+  max-width: 900px;
 }
 
 .item {
   display: flex;  
+  padding: 10px  
 }
 
 span {
