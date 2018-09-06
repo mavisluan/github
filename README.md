@@ -1,6 +1,6 @@
 ## GitHub Project
 
-This is a simple GitHub repo page. 
+This project is a simple GitHub repo page, built with ReactJS.
 
 It displays the repo's documents by files and folders and also shows the last commit time and message.
 
