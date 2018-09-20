@@ -10,7 +10,8 @@
 
 # Installation Instructions
 
-- clone my repo git clone https://github.com/mavisluan/github
-- install all project dependencies with yarn install
-- start the development server with yarn start
+- git clone https://github.com/mavisluan/github
+- cd github
+- yarn install
+- yarn start
 
