@@ -4,11 +4,11 @@
 - It displays the repo's documents by files and folders with the last commit time and message.
 
 
-# Project Screenshot 
+## Project Screenshot 
 ![](src/github.png)
 
 
-# Installation Instructions
+## Installation Instructions
 
 - git clone https://github.com/mavisluan/github
 - cd github
